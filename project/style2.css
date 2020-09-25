@@ -1,0 +1,39 @@
+body
+{
+  margin:50px;
+  padding: 10pc;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(194, 218, 223);
+  background-repeat: repeat;
+  
+}
+.header{
+    position: relative;
+    text-align: center;
+    color:saddlebrown;
+    border-block-end-style: dotted;
+    border-color:rgb(7, 41, 80);
+    border-block-width: 30px;
+}
+h2{
+  color: rgb(216, 155, 76);
+}
+
+#slider{
+  overflow: hidden
+}
+#slider figure{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+  justify-content: center;
+  align-items: center;
+}
+#slider figure img{
+  float: left;
+  width: 20%
+}
